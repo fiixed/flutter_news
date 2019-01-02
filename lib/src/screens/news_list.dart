@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:async';
 
 class NewsList extends StatelessWidget {
   @override
@@ -7,7 +8,7 @@ class NewsList extends StatelessWidget {
       appBar: AppBar(
         title: Text('Top News'),
       ),
-      body: Text('Show some news here'),
+      body: Text('Show a list'),
     );
   }
 }
